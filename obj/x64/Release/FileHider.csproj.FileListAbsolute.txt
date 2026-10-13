@@ -8,13 +8,15 @@ C:\Users\B!LLA\source\repos\FileHider\obj\x64\Release\FileHider.AssemblyInfo.cs
 C:\Users\B!LLA\source\repos\FileHider\obj\x64\Release\FileHider.csproj.CoreCompileInputs.cache
 C:\Users\B!LLA\source\repos\FileHider\obj\x64\Release\FileHider.exe
 C:\Users\B!LLA\source\repos\FileHider\obj\x64\Release\FileHider.pdb
-C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.csproj.AssemblyReference.cache
-C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.exe
-C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.pdb
 C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\bin\x64\Release\FileHider.exe.config
 C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\bin\x64\Release\FileHider.exe
 C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\bin\x64\Release\FileHider.pdb
+C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.csproj.AssemblyReference.cache
 C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.AssemblyInfoInputs.cache
 C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.AssemblyInfo.cs
 C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.csproj.CoreCompileInputs.cache
+C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.sourcelink.json
+C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.exe
+C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS\obj\x64\Release\FileHider.pdb
+C:\Users\B!LLA\source\repos\USNJOURNAL BYPASS(best)\obj\x64\Release\FileHider.csproj.AssemblyReference.cache

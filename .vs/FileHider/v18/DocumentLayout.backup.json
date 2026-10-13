@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\",
+  "WorkspaceRootPath": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass\\filehider.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass(best)\\filehider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:filehider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass(best)\\build.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:build.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass(best)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass(best)\\filehider.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:filehider.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass\\kernelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:kernelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass(best)\\artifactscrubber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:artifactscrubber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass\\filehider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:filehider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass(best)\\kernelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:kernelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,37 +39,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FileHider.c",
-              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\FileHider.c",
-              "RelativeDocumentMoniker": "FileHider.c",
-              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\FileHider.c",
-              "RelativeToolTip": "FileHider.c",
-              "ViewState": "AgIAAM4EAAAAAAAAAAAcwOIEAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-10-12T18:52:55.001Z",
+              "Title": "FileHider",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\FileHider.csproj",
+              "RelativeDocumentMoniker": "FileHider.csproj",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\FileHider.csproj",
+              "RelativeToolTip": "FileHider.csproj",
+              "ViewState": "AgIAADIAAAAAAAAAAIAwwD4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-13T15:53:50.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FileHider.csproj",
-              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\FileHider.csproj",
-              "RelativeDocumentMoniker": "FileHider.csproj",
-              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\FileHider.csproj",
-              "RelativeToolTip": "FileHider.csproj",
-              "ViewState": "AgIAADIAAAAAAAAAAIAwwD4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-12T17:10:32.784Z"
+              "DocumentIndex": 1,
+              "Title": "build.bat",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\build.bat",
+              "RelativeDocumentMoniker": "build.bat",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\build.bat",
+              "RelativeToolTip": "build.bat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE6SURBVDhPY6AI/P//H8oiHzBWlpfeBxqlAOWTCBgfMJGi2ds3AIUG660sL/n/69cvDLznyJn/uw6dwioHwyC9QBeggqu3HzDsOHiS4d37Dwxv371nWL/9AMO5yzegspgAwwAWJiaGb9\u002B\u002BM5joaTKYGmgxfPv\u002BjYGFBUMZHGDI/Pn7l\u002BH3718Mf//9ZfgHZP/5/Zvhz5\u002B/UFlMgGHAz58/GRiB9IGjpxj2HTnBwAjknDp7HuiSHxAFaADDACNdDYYwPzcGPh4uhr9Am5\u002B9eMrw6Mljho6\u002BiQw3bt6GqkIAnJ4L9HJh8HS2Yfj44SNDW005w4d37xg4ONigsgiAO3SA4OtXYAACVeQWlTKwsjJjTbl4DVBXVWaoKMpnsLG0YOjtaGNQVMBMc8CkXAxMyoxkJuX/D6CMAQMMDABIjqFEM6osUwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-10-13T15:53:48.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "ArtifactScrubber.cs",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\ArtifactScrubber.cs",
+              "RelativeDocumentMoniker": "ArtifactScrubber.cs",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\ArtifactScrubber.cs",
+              "RelativeToolTip": "ArtifactScrubber.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAowP0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T10:27:55.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADkIAAAAAAAAAAAYwE0IAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:09:26.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileHider.c",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\FileHider.c",
+              "RelativeDocumentMoniker": "FileHider.c",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\FileHider.c",
+              "RelativeToolTip": "FileHider.c",
+              "ViewState": "AgIAADoBAAAAAAAAAAAYwE4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-12T18:52:55.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "KernelLoader.cs",
-              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\KernelLoader.cs",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\KernelLoader.cs",
               "RelativeDocumentMoniker": "KernelLoader.cs",
-              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\KernelLoader.cs",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS(best)\\KernelLoader.cs",
               "RelativeToolTip": "KernelLoader.cs",
-              "ViewState": "AgIAAI8CAAAAAAAAAAAgwJYCAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJgCAAAAAAAAAAAYwK8CAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-11T16:23:46.448Z"
             }

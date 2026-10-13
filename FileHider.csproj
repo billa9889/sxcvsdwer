@@ -44,6 +44,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="ArtifactScrubber.cs" />
+    <Compile Include="KeyAuth.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="KernelLoader.cs" />
   </ItemGroup>
@@ -56,26 +58,16 @@
     <None Include="README.md" />
   </ItemGroup>
 
-  <Target Name="BuildKernelDriver"
-          BeforeTargets="PrepareResources;BeforeCompile"
-          Condition="'$(DesignTimeBuild)' != 'true' And '$(BuildingProject)' == 'true'">
+  <Target Name="BuildKernelDriver" BeforeTargets="PrepareResources;BeforeCompile" Condition="'$(DesignTimeBuild)' != 'true' And '$(BuildingProject)' == 'true'">
 
-    <Exec Command="build.bat"
-          WorkingDirectory="$(MSBuildProjectDirectory)"
-          ContinueOnError="false" />
+    <Exec Command="build.bat" WorkingDirectory="$(MSBuildProjectDirectory)" ContinueOnError="false" />
 
     <ItemGroup>
-      <EmbeddedResource Include="FileHider.bin"
-                        LogicalName="FileHider"
-                        Condition="Exists('FileHider.bin')" />
-      <EmbeddedResource Include="RTCore64.bin"
-                        LogicalName="RTCore64"
-                        Condition="Exists('RTCore64.bin')" />
+      <EmbeddedResource Include="FileHider.bin" LogicalName="FileHider" Condition="Exists('FileHider.bin')" />
+      <EmbeddedResource Include="RTCore64.bin" LogicalName="RTCore64" Condition="Exists('RTCore64.bin')" />
     </ItemGroup>
 
-    <Message Importance="high"
-             Text="[*] Embedded driver: FileHider.bin"
-             Condition="Exists('FileHider.bin')" />
+    <Message Importance="high" Text="[*] Embedded driver: FileHider.bin" Condition="Exists('FileHider.bin')" />
   </Target>
 
   <Target Name="CleanDriverArtifacts" AfterTargets="Clean">
