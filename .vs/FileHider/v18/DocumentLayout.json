@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass\\filehider.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:filehider.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass\\kernelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:kernelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|c:\\users\\b!lla\\source\\repos\\usnjournal bypass\\filehider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|FileHider.csproj|solutionrelative:filehider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAH4IAAAAAAAAAAAYwJIIAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:09:26.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileHider.c",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\FileHider.c",
+              "RelativeDocumentMoniker": "FileHider.c",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\FileHider.c*",
+              "RelativeToolTip": "FileHider.c*",
+              "ViewState": "AgIAANcEAAAAAAAAAAAYwOgEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-12T18:52:55.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileHider.csproj",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\FileHider.csproj",
+              "RelativeDocumentMoniker": "FileHider.csproj",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\FileHider.csproj",
+              "RelativeToolTip": "FileHider.csproj",
+              "ViewState": "AgIAADIAAAAAAAAAAIAwwD4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-12T17:10:32.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KernelLoader.cs",
+              "DocumentMoniker": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\KernelLoader.cs",
+              "RelativeDocumentMoniker": "KernelLoader.cs",
+              "ToolTip": "C:\\Users\\B!LLA\\source\\repos\\USNJOURNAL BYPASS\\KernelLoader.cs",
+              "RelativeToolTip": "KernelLoader.cs",
+              "ViewState": "AgIAAI8CAAAAAAAAAAAgwJYCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T16:23:46.448Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

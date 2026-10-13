@@ -1,0 +1,85 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <AssemblyName>FileHider</AssemblyName>
+    <RootNamespace>FileHider</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyTitle>FileHider</AssemblyTitle>
+    <Product>FileHider</Product>
+    <Version>1.0.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Deterministic>true</Deterministic>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <EnableSdkContainerSupport>false</EnableSdkContainerSupport>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <UseWindowsForms>false</UseWindowsForms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
+    <EnableDefaultPageItems>false</EnableDefaultPageItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="KernelLoader.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="FileHider.c" />
+    <None Include="build.bat" />
+    <None Include="app.manifest" />
+    <None Include="RTCore64.bin" Condition="Exists('RTCore64.bin')" />
+    <None Include="README.md" />
+  </ItemGroup>
+
+  <Target Name="BuildKernelDriver"
+          BeforeTargets="PrepareResources;BeforeCompile"
+          Condition="'$(DesignTimeBuild)' != 'true' And '$(BuildingProject)' == 'true'">
+
+    <Exec Command="build.bat"
+          WorkingDirectory="$(MSBuildProjectDirectory)"
+          ContinueOnError="false" />
+
+    <ItemGroup>
+      <EmbeddedResource Include="FileHider.bin"
+                        LogicalName="FileHider"
+                        Condition="Exists('FileHider.bin')" />
+      <EmbeddedResource Include="RTCore64.bin"
+                        LogicalName="RTCore64"
+                        Condition="Exists('RTCore64.bin')" />
+    </ItemGroup>
+
+    <Message Importance="high"
+             Text="[*] Embedded driver: FileHider.bin"
+             Condition="Exists('FileHider.bin')" />
+  </Target>
+
+  <Target Name="CleanDriverArtifacts" AfterTargets="Clean">
+    <Delete Files="FileHider.obj;FileHider.bin;FileHider.exe" ContinueOnError="true" />
+  </Target>
+
+</Project>
